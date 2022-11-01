@@ -22,3 +22,7 @@
 
 <pre><code>flush_rewrite_rules();</code></pre>
 
+<h2>Plugin Activation Hook.</h2>
+
+<pre><code>require_once plugin_dir_path(__FILE__) . 'inc/bwloop-plugin-activate.php';
+register_activation_hook(__FILE__, ['BwloopPluginActivate', 'activate']);</code></pre>
