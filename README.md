@@ -1,6 +1,6 @@
 <h2>Require once for a plugin file.</h2>
 
-<pre><code>require_once plugin_dir_path(**FILE**) . 'inc/bwloop-plugin-deactivate.php';</code></pre>
+<pre><code> require_once plugin_dir_path(__FILE__) . 'inc/bwloop-plugin-activate.php';</code></pre>
 
 
 <h2>Enqueue script.</h2>
