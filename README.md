@@ -26,3 +26,8 @@
 
 <pre><code>require_once plugin_dir_path(__FILE__) . 'inc/bwloop-plugin-activate.php';
 register_activation_hook(__FILE__, ['BwloopPluginActivate', 'activate']);</code></pre>
+
+<h2>Plugin Deactivation Hook.</h2>
+
+<pre><code>require_once plugin_dir_path(__FILE__) . 'inc/bwloop-plugin-deactivate.php';
+register_activation_hook(__FILE__, ['BwloopPluginDeactivate', 'deactivate']);</code></pre>
