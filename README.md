@@ -1,10 +1,10 @@
-<h2>Require once for a plugin file.</2>
+<h2>Require once for a plugin file.</h2>
 
 <pre><code>
 require_once plugin_dir_path(**FILE**) . 'inc/bwloop-plugin-deactivate.php';/code></pre>
 
 
-<h2>Enqueue script.</h2
+<h2>Enqueue script.</h2>
 
 <pre><code>
 wp_enqueue_script('mypluginscript', plugins_url('/assets/myscripts.js', __FILE__), [], '1.0.0', true);/code></pre>
