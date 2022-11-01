@@ -31,3 +31,8 @@ register_activation_hook(__FILE__, ['BwloopPluginActivate', 'activate']);</code>
 
 <pre><code>require_once plugin_dir_path(__FILE__) . 'inc/bwloop-plugin-deactivate.php';
 register_activation_hook(__FILE__, ['BwloopPluginDeactivate', 'deactivate']);</code></pre>
+
+
+<h2>Other Resources: </h2>
+
+https://developer.wordpress.org/resource/dashicons/#dismiss
